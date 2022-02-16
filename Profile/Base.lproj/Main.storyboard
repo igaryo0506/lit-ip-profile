@@ -59,6 +59,10 @@
                             <constraint firstItem="LPX-lV-f08" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vjq-sH-2tx"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="profileCommentLabel" destination="fO7-yF-6QR" id="Urh-CO-0mh"/>
+                        <outlet property="profileImageView" destination="FpG-x3-Ilk" id="Hff-3S-QiW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
