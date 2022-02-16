@@ -34,6 +34,17 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPX-lV-f08">
+                                <rect key="frame" x="152" y="799" width="110" height="31"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="10" maxX="20" maxY="10"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="プロフィール">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.0" green="0.70588235294117641" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -41,9 +52,11 @@
                             <constraint firstItem="FpG-x3-Ilk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5zv-Vt-o9T"/>
                             <constraint firstItem="fO7-yF-6QR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="BSf-1b-7RC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fO7-yF-6QR" secondAttribute="trailing" constant="16" id="D5T-tE-WMq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LPX-lV-f08" secondAttribute="bottom" constant="32" id="W7n-vT-Pke"/>
                             <constraint firstItem="FpG-x3-Ilk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="fR9-OG-oq2"/>
                             <constraint firstItem="FpG-x3-Ilk" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="qgJ-Ae-zSH"/>
                             <constraint firstItem="fO7-yF-6QR" firstAttribute="top" secondItem="FpG-x3-Ilk" secondAttribute="bottom" constant="16" id="uC7-HD-Pkv"/>
+                            <constraint firstItem="LPX-lV-f08" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vjq-sH-2tx"/>
                         </constraints>
                     </view>
                 </viewController>
